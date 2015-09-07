@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl1-zp-Mh3">
+                                <rect key="frame" x="116" y="508" width="89" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="UmJ-PK-fch"/>
+                                    <constraint firstAttribute="height" constant="30" id="zxV-cu-siW"/>
+                                </constraints>
+                                <state key="normal" title="Tap for push">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UP2-cc-6Qh" kind="modal" id="FOP-fl-L4r"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yl1-zp-Mh3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ROJ-eP-Vhx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Yl1-zp-Mh3" secondAttribute="bottom" constant="30" id="dq0-JQ-3jG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="286"/>
+        </scene>
+        <!--Transition View Controller-->
+        <scene sceneID="mkv-Am-ObR">
+            <objects>
+                <viewController id="UP2-cc-6Qh" customClass="TransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wh8-CG-zDV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qwq-He-5u3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zoA-KL-IMg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSX-wE-yyk">
+                                <rect key="frame" x="130" y="506" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9SA-x3-e44"/>
+                                    <constraint firstAttribute="width" constant="60" id="Alm-5S-5Qu"/>
+                                </constraints>
+                                <state key="normal" title="点击返回">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dissmissClick:" destination="UP2-cc-6Qh" eventType="touchUpInside" id="ia0-9I-Gwz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47730146239999999" green="0.82879577019999995" blue="0.60115486939999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="HSX-wE-yyk" secondAttribute="centerX" id="iDm-DG-gxq"/>
+                            <constraint firstItem="Qwq-He-5u3" firstAttribute="top" secondItem="HSX-wE-yyk" secondAttribute="bottom" constant="32" id="o3Q-dN-9TZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YYP-KA-wVQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EkW-Td-fE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566" y="294"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

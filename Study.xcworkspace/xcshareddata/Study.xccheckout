@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4C843EAE-AA3E-4E4F-8D18-22F7315A243F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Study</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C493ECC9293A8769ADAA4F107EC37682CFB7A9B0</key>
+		<string>github.com:LL86/Reviwe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>自定义转场动画/Study.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C493ECC9293A8769ADAA4F107EC37682CFB7A9B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:LL86/Reviwe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C493ECC9293A8769ADAA4F107EC37682CFB7A9B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C493ECC9293A8769ADAA4F107EC37682CFB7A9B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Reviwe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
